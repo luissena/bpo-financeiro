@@ -2,6 +2,7 @@
   <main class="px-5 lg:px-0">
     <Initial />
     <Notice />
+    <Know />
     <img class="fixed bottom-0 right-2 w-20 z-50" src="/wpp.png" />
   </main>
 </template>
