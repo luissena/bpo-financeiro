@@ -7,6 +7,7 @@
     </h1>
     <div class="border-t-2 border-[#7D3246] w-[200px]"></div>
     <img class="w-1/2 py-16" src="/solutions.png" />
+    <img class="w-1/4" id="globo_left" src="/globo_left.png" />
   </section>
 </template>
 
@@ -15,6 +16,13 @@
   position: absolute;
   top: 2700px;
   right: 0;
+
+  object-fit: cover;
+}
+#globo_left {
+  position: absolute;
+  top: 3800px;
+  left: 0;
 
   object-fit: cover;
 }
