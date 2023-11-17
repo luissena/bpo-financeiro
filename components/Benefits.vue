@@ -3,6 +3,8 @@
     <h1 class="text-lg font-bold mt-24 pb-2 text-center">
       COM O BPO FINANCEIRO, A SUA EMPRESA:
     </h1>
+    <div class="border-t-2 border-[#7D3246] w-[200px]"></div>
+
     <div>
       <ul
         class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center"
