@@ -21,7 +21,7 @@
 }
 #globo_left {
   position: absolute;
-  top: 3800px;
+  top: 4000px;
   left: 0;
 
   object-fit: cover;

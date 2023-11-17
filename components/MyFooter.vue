@@ -1,6 +1,6 @@
 <template>
   <footer class="flex flex-col items-center gap-10">
-    <div class="flex justify-center items-center gap-10">
+    <div class="flex justify-center items-center gap-10 mt-10">
       <img class="w-[120px]" src="/logo_footer.png" />
       <div class="flex flex-col items-center">
         <div class="flex flex-col self-start items-center">

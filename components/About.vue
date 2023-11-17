@@ -6,7 +6,7 @@
     <div class="border-t-2 border-[#7D3246] w-[200px]"></div>
 
     <div class="flex items-center justify-center w-4/5 gap-10 py-10">
-      <img src="/larissa.png" />
+      <img class="z-50" src="/larissa.png" />
       <div>
         <p>
           <strong
@@ -31,5 +31,17 @@
         </p>
       </div>
     </div>
+
+    <img class="w-1/4" id="globo" src="/globo_left.png" />
   </section>
 </template>
+
+<style scoped>
+#globo {
+  position: absolute;
+  top: 7300px;
+  left: 0;
+
+  object-fit: cover;
+}
+</style>

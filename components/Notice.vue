@@ -24,7 +24,7 @@
 <style scoped>
 #globo {
   position: absolute;
-  top: 1550px;
+  top: 1400px;
   left: 0;
 
   object-fit: cover;

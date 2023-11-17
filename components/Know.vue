@@ -13,9 +13,9 @@
       </div>
 
       <div
-        class="bg-[#7D3246] text-[#E4E4E4] p-10 rounded-ss-2xl rounded-ee-2xl"
+        class="flex items-center bg-[#7D3246] text-[#E4E4E4] p-10 rounded-ss-2xl rounded-ee-2xl"
       >
-        <p>
+        <p class="text-lg">
           <strong>BPO</strong> é a abreviação de
           <strong>Business Process Outsourcing</strong>. <br /><br />
           E traduzindo para o português significa:

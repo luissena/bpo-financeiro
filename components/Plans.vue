@@ -7,7 +7,7 @@
 
     <div class="grid grid-cols-3 items-center justify-center gap-5 w-4/5 py-10">
       <ul
-        class="py-5 px-5 bg-[#E4E4E4] rounded-ss-2xl rounded-ee-2xl"
+        class="z-50 py-5 px-5 bg-[#E4E4E4] rounded-ss-2xl rounded-ee-2xl"
         v-for="plan in plans"
       >
         <li class="text-[#7D3246] font-bold text-center mb-2">
@@ -26,6 +26,7 @@
         </li>
       </ul>
     </div>
+    <img class="w-1/4" id="globo" src="/globo.png" />
   </section>
 </template>
 
@@ -107,3 +108,13 @@ const plans = [
   },
 ]
 </script>
+
+<style scoped>
+#globo {
+  position: absolute;
+  top: 6000px;
+  right: 0;
+
+  object-fit: cover;
+}
+</style>
