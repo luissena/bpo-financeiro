@@ -6,6 +6,7 @@
     <Benefits />
     <Solutions />
     <Implementation />
+    <Works />
     <img class="fixed bottom-0 right-2 w-20 z-50" src="/wpp.png" />
   </main>
 </template>
