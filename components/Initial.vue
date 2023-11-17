@@ -1,5 +1,5 @@
 <template>
-  <section class="px-5 lg:px-0 bg-[#F7F7F7] flex flex-col items-center pb-10">
+  <section class="bg-[#F7F7F7] flex flex-col items-center pb-10">
     <img src="/logo.png" />
     <h1 class="text-lg md:w-1/2 text-center">
       Assista ao videdo e descubra como terceirizar o financeiro da sua empresa
@@ -71,7 +71,7 @@ const list: ListProps[] = [
 ]
 </script>
 
-<style>
+<style scoped>
 #globo {
   position: absolute;
   top: 350px;
