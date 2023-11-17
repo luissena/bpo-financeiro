@@ -4,19 +4,19 @@
       COM O BPO FINANCEIRO, A SUA EMPRESA:
     </h1>
     <div class="border-t-2 border-[#7D3246] w-[200px]"></div>
-  </section>
 
-  <ul
-    class="grid grid-cols-3 justify-center items-center mx-auto gap-5 w-5/6 text-center py-10"
-  >
-    <li
-      class="bg-[#E4E4E4] text-[#21515D] font-bold rounded-ss-2xl rounded-ee-2xl"
-      v-for="item in list"
+    <ul
+      class="grid grid-cols-3 justify-center items-center gap-5 w-5/6 text-center py-10"
     >
-      <img class="" :src="item.thumbnail" />
-      <p class="px-12 py-3">{{ item.description }}</p>
-    </li>
-  </ul>
+      <li
+        class="bg-[#E4E4E4] text-[#21515D] font-bold rounded-ss-2xl rounded-ee-2xl"
+        v-for="item in list"
+      >
+        <img class="" :src="item.thumbnail" />
+        <p class="px-12 py-3">{{ item.description }}</p>
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script setup lang="ts">
