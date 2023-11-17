@@ -11,7 +11,7 @@
       >
         <li
           v-for="item in list"
-          class="px-5 py-5 w-[350px] flex items-center text-center gap-2 bg-[#E4E4E480] rounded-ss-2xl rounded-ee-2xl"
+          class="z-50 px-5 py-5 w-[350px] flex items-center text-center gap-2 bg-[#E4E4E480] rounded-ss-2xl rounded-ee-2xl"
         >
           <IconV />
           <span class="text-lg">{{ item.description }}</span>
